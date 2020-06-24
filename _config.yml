@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "conntected dots"
+title                    : "Mr.Geek"
 title_separator          : "-"
-subtitle                 : "version 1.0" # site tagline that appears below site title in masthead
+subtitle                 : "THE BLOG OF Mr.Geek" # site tagline that appears below site title in masthead
 name                     : "Mr.Geek"    # name of below area.
 description              : "Fake it till. You make it."
 url                      : "https://geongupark.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "geongupark/geongupark.github.com" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "There are so many geeks"# overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "GG_Notes"# overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Mr.Geek"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I have many geeks in myself."
+  bio              : "Fake it till. You make it."
   location         : "Republic of Kerea"
   email            : "geongu.dev@google.com"
   links:
