@@ -6,8 +6,11 @@ main:
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
+  - title: "Knowledge Map"
+    url: /knowledge_map/
+  - title: "Categories"
+    url: /categories/
   - title: "About Gus"
     url: /gus/
   # - title: "Sitemap"
   #   url: /sitemap/
-  
