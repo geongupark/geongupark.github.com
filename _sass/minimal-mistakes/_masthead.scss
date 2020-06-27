@@ -27,7 +27,7 @@
     justify-content: space-between;
     font-family: $sans-serif-narrow;
 	/* gus : 메뉴바 텍스트 설정 */
-	font-size :  $type-size-4;
+	font-size :  $type-size-6;
 	font-wight : bold;
 
     @include breakpoint($x-large) {
@@ -54,13 +54,15 @@
   display: flex;
   -ms-flex-item-align: center;
   align-self: center;
+  // gus : font size of title
+  font-size :  $type-size-2;
   font-weight: bold;
   // z-index: 20;
 }
 
 .site-subtitle {
   display: block;
-  font-size: $type-size-8;
+  font-size :  $type-size-8;
 }
 
 .masthead__menu {
