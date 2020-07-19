@@ -190,6 +190,9 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# diagram - gus
+#mermaid:
+#  src: '/mermaid-develop/src/mermaid.js'
 
 # Markdown Processing
 kramdown:
@@ -223,6 +226,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+ # - jekyll-mermaid # add gus
 
 # mimic GitHub Pages with --safe
 whitelist:

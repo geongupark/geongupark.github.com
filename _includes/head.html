@@ -4,6 +4,20 @@
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
+<!--js sequence
+<script src="/_diagram/underscore/underscore-min.js"></script>
+<script src="/_diagram/snap.svg/dist/snap.svg-min.js"></script>
+<script src="/_diagram/underscore/underscore-min.js"></script>
+<script src="/_diagram/js-sequence-diagrams/dist/sequence-diagram-min.js"></script>
+-->
+
+<!-- mermaid for diagram -->
+<!-- Way to local : <script src="/mermaid/mermaid.min.js"></script> -->
+<!-- Way to site : <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.0/mermaid.min.js"></script>
+from https://www.cdnpkg.com/mermaid/file/mermaid.min.js/?id=54484 -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.5.0/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
 <!-- favicon -->
 <LINK REL="SHORTCUT ICON" HREF="/assets/ico/9u.ico" />
 
@@ -13,6 +27,7 @@
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
+
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
