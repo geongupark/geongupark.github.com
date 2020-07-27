@@ -4,7 +4,19 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+
+  // gus add for header style
+  //text-align: center;
+  align-items: center;
+  //max-width: 100em;
+  //min-width: 300px;
+  //justify-content: space-between;
+  margin-left: 2%;
+  margin-right: 2%;
+  display : flax;
+  //margin: 0 auto;
+	
+  //border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -13,12 +25,12 @@
 
   &__inner-wrap {
     @include clearfix;
-    margin-left: 2em;
-    margin-right: auto;
+    margin-left: auto;	//2em
+    margin-right: auto;	//auto
 	/* gus : 메뉴바 패딩 조절 */
     /* padding: 1em; */
-	padding : 0.4em;
-    max-width: 100%;
+	padding : 1em;
+    max-width: 1160px;	// gus custom
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -27,12 +39,14 @@
     justify-content: space-between;
     font-family: $sans-serif-narrow;
 	/* gus : 메뉴바 텍스트 설정 */
-	font-size :  $type-size-6;
+	font-size :  $type-size-5;
 	font-wight : bold;
-
-    @include breakpoint($x-large) {
+	border-bottom: 1px solid $border-color;
+	
+	// gus - header 길이 제한 걸어놓은거 해제
+    /*@include breakpoint($x-large) {
       max-width: $max-width;
-    }
+    }*/
 
     nav {
       z-index: 10;
@@ -67,8 +81,8 @@
 
 .masthead__menu {
   float: left;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 0;	//0
+  margin-right: 0;	//0
   width: 100%;
   clear: both;
 
