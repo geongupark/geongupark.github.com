@@ -513,15 +513,19 @@ body {
   float: left;
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid $border-color;
+  //border-top: 1px solid $border-color;
 
   @include breakpoint($large) {
     float: right;
+	$right-sidebar-width-narrow:9px;	// gus
     width: calc(100% - #{$right-sidebar-width-narrow});
+	padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
+  $right-sidebar-width:42px;	// gus
     width: calc(100% - #{$right-sidebar-width});
+	padding-right: $right-sidebar-width;
   }
 
   a {
