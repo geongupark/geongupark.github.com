@@ -2,10 +2,6 @@
    ARCHIVE
    ========================================================================== */
 
-:root {
-	--v1: 13%;
-	--v2: 100;
-}
 
 .archive {
   margin-top: 1em;
@@ -42,7 +38,7 @@
   padding-left : 1.5%;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
-  color: $muted-text-color;
+  color: #585858;//$muted-text-color;
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {

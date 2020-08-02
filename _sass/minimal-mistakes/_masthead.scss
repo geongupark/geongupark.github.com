@@ -41,7 +41,7 @@
 	/* gus : 메뉴바 텍스트 설정 */
 	font-size :  $type-size-5;
 	font-wight : bold;
-	border-bottom: 1px solid $border-color;
+	border-bottom: 1px solid #000000;//$border-color;
 	
 	// gus - header 길이 제한 걸어놓은거 해제
     /*@include breakpoint($x-large) {
@@ -112,3 +112,11 @@
     font-weight: 700;
   }
 }
+
+// gus for mermaid
+//.mermaid{
+//	text-align : center;
+//useMaxWidth : True;
+//}
+
+
