@@ -6,7 +6,7 @@
 .archive {
   margin-top: 1em;
   margin-bottom: 2em;
-
+  
   @include breakpoint($large) {
     float: right;
 	$right-sidebar-width-narrow:9px;	// gus
@@ -22,6 +22,7 @@
 }
 
 .archive__item {
+  margin-left : 1em;	// gus
   position: relative;
   a {
     position: relative;
