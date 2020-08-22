@@ -28,6 +28,17 @@ last_modified_at: 2020-08-13T08:06:00-05:00
   
 ----
 <br>
+<!-- mp3 -->
+<audio id="a1" src="/assets/mp3/365english/Week2_04_01.mp3" preload hidden="false"></audio>
+<audio id="a2" src="/assets/mp3/365english/Week2_04_02.mp3" preload hidden="false"></audio>
+<audio id="a3" src="/assets/mp3/365english/Week2_04_03.mp3" preload hidden="false"></audio>
+<audio id="a4" src="/assets/mp3/365english/Week2_04_04.mp3" preload hidden="false"></audio>
+<audio id="a5" src="/assets/mp3/365english/Week2_04_05.mp3" preload hidden="false"></audio>
+<audio id="a6" src="/assets/mp3/365english/Week2_04_06.mp3" preload hidden="false"></audio>
+<audio id="a7" src="/assets/mp3/365english/Week2_04_07.mp3" preload hidden="false"></audio>
+<audio id="a8" src="/assets/mp3/365english/Week2_04_08.mp3" preload hidden="false"></audio>
+<audio id="a9" src="/assets/mp3/365english/Week2_04_09.mp3" preload hidden="false"></audio>
+<audio id="a10" src="/assets/mp3/365english/Week2_04_10.mp3" preload hidden="false"></audio>
 # <span style="color:#FF8000">Helen's diary</span>
 언니와 나는 <span style="color:blue">식성</span>이 전혀 다르다.  
 언니는 채식주의자이지만, 나는 고기를 좋아한다.  
@@ -38,11 +49,11 @@ last_modified_at: 2020-08-13T08:06:00-05:00
 <details>
 <summary>English</summary>
 <div markdown="1">
-My sister and I have completely different <span style="color:blue">tastes in food.</span>  
-While she is a vegetarian, I am a meat-lover.  
-That's why it took so long to <span style="color:blue">decide on</span> the menu today.  
-We finally chose bibimbap.  
-Fortunately, <span style="color:blue">we both</span> were very happy with our choice.  
+<span onclick="document.getElementById('a1').play(); return false;">My sister and I have completely different <span style="color:blue">tastes in food.</span></span>  
+<span onclick="document.getElementById('a2').play(); return false;">While she is a vegetarian, I am a meat-lover.</span>  
+<span onclick="document.getElementById('a3').play(); return false;">That's why it took so long to <span style="color:blue">decide on</span> the menu today.</span>  
+<span onclick="document.getElementById('a4').play(); return false;">We finally chose bibimbap.</span>  
+<span onclick="document.getElementById('a5').play(); return false;">Fortunately, <span style="color:blue">we both</span> were very happy with our choice.</span>  
 </div>
 </details>
 <br>
@@ -56,11 +67,11 @@ Lily는 <span style="color:blue">매운</span> 음식을 좋아하지만, 나는
 <details>
 <summary>English</summary>
 <div markdown="1">
-My friend Lily and I have completely <span style="color:blue">opposite</span> tastes in food.  
-While she loves <span style="color:blue">hot and spicy</span> food, I can't <span style="color:blue">stomach</span> anything spicy.  
-That's why it took so long to <span style="color:blue">pick from</span> the menu today.  
-We finally decided on soy sauce tteokbokki.  
-Fortunately, we both were very satisfied with our choice.  
+<span onclick="document.getElementById('a6').play(); return false;">My friend Lily and I have completely <span style="color:blue">opposite</span> tastes in food.</span>  
+<span onclick="document.getElementById('a7').play(); return false;">While she loves <span style="color:blue">hot and spicy</span> food, I can't <span style="color:blue">stomach</span> anything spicy.</span>  
+<span onclick="document.getElementById('a8').play(); return false;">That's why it took so long to <span style="color:blue">pick from</span> the menu today.</span>  
+<span onclick="document.getElementById('a9').play(); return false;">We finally decided on soy sauce tteokbokki.</span>  
+<span onclick="document.getElementById('a10').play(); return false;">Fortunately, we both were very satisfied with our choice.</span>  
 </div>
 </details>
   

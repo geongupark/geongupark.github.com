@@ -25,6 +25,17 @@ last_modified_at: 2020-08-11T08:06:00-05:00
   
 ----
 <br>
+<!-- mp3 -->
+<audio id="a1" src="/assets/mp3/365english/Week2_01_01.mp3" preload hidden="false"></audio>
+<audio id="a2" src="/assets/mp3/365english/Week2_01_02.mp3" preload hidden="false"></audio>
+<audio id="a3" src="/assets/mp3/365english/Week2_01_03.mp3" preload hidden="false"></audio>
+<audio id="a4" src="/assets/mp3/365english/Week2_01_04.mp3" preload hidden="false"></audio>
+<audio id="a5" src="/assets/mp3/365english/Week2_01_05.mp3" preload hidden="false"></audio>
+<audio id="a6" src="/assets/mp3/365english/Week2_01_06.mp3" preload hidden="false"></audio>
+<audio id="a7" src="/assets/mp3/365english/Week2_01_07.mp3" preload hidden="false"></audio>
+<audio id="a8" src="/assets/mp3/365english/Week2_01_08.mp3" preload hidden="false"></audio>
+<audio id="a9" src="/assets/mp3/365english/Week2_01_09.mp3" preload hidden="false"></audio>
+<audio id="a10" src="/assets/mp3/365english/Week2_01_10.mp3" preload hidden="false"></audio>
 # <span style="color:#FF8000">Helen's diary</span>
 오늘 친구들과 함께 <span style="color:#0000FF">새로 문을 연 분식점</span>을 갔다.  
 우리는 나눠먹을 몇 가지 음식을 주문했다.  
@@ -35,11 +46,11 @@ last_modified_at: 2020-08-11T08:06:00-05:00
 <details>
 <summary>English</summary>
 <div markdown="1">
-I visited a <span style="color:#0000FF">newly opened snack bar</span> with my friends today.  
-We ordered several dishes to share.  
-And we enjoyed delicious food <span style="color:#0000FF">at a good price.</span>  
-The service was also very <span style="color:#0000FF">friendly.</span>  
-I think I'll become a <span style="color:#0000FF">regular visitor</span> at this place.  
+<span onclick="document.getElementById('a1').play(); return false;">I visited a <span style="color:#0000FF">newly opened snack bar</span> with my friends today.</span>  
+<span onclick="document.getElementById('a2').play(); return false;">We ordered several dishes to share.</span>  
+<span onclick="document.getElementById('a3').play(); return false;">And we enjoyed delicious food <span style="color:#0000FF">at a good price.</span></span>  
+<span onclick="document.getElementById('a4').play(); return false;">The service was also very <span style="color:#0000FF">friendly.</span></span>  
+<span onclick="document.getElementById('a5').play(); return false;">I think I'll become a <span style="color:#0000FF">regular visitor</span> at this place.</span>  
 </div>
 </details>
 <br>
@@ -53,11 +64,11 @@ I think I'll become a <span style="color:#0000FF">regular visitor</span> at this
 <details>
 <summary>English</summary>
 <div markdown="1">
-I visited a <span style="color:#0000FF">recently opened</span> restaurant with my family today.  
-Everyone ordered different dishes <span style="color:#0000FF">to try.</span>  
-And we enjoyed great food <span style="color:#0000FF">at a reasonable price.</span>  
-The service was also very <span style="color:#0000FF">attentive.</span>  
-I think I'll become a <span style="color:#0000FF">frequent visitor</span> at this restaurant.  
+<span onclick="document.getElementById('a6').play(); return false;">I visited a <span style="color:#0000FF">recently opened</span> restaurant with my family today.</span>  
+<span onclick="document.getElementById('a7').play(); return false;">Everyone ordered different dishes <span style="color:#0000FF">to try.</span></span>  
+<span onclick="document.getElementById('a8').play(); return false;">And we enjoyed great food <span style="color:#0000FF">at a reasonable price.</span></span>  
+<span onclick="document.getElementById('a9').play(); return false;">The service was also very <span style="color:#0000FF">attentive.</span></span>  
+<span onclick="document.getElementById('a10').play(); return false;">I think I'll become a <span style="color:#0000FF">frequent visitor</span> at this restaurant.</span>  
 </div>
 </details>
   

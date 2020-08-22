@@ -28,6 +28,17 @@ last_modified_at: 2020-08-13T08:06:00-05:00
   
 ----
 <br>
+<!-- mp3 -->
+<audio id="a1" src="/assets/mp3/365english/Week2_05_01.mp3" preload hidden="false"></audio>
+<audio id="a2" src="/assets/mp3/365english/Week2_05_02.mp3" preload hidden="false"></audio>
+<audio id="a3" src="/assets/mp3/365english/Week2_05_03.mp3" preload hidden="false"></audio>
+<audio id="a4" src="/assets/mp3/365english/Week2_05_04.mp3" preload hidden="false"></audio>
+<audio id="a5" src="/assets/mp3/365english/Week2_05_05.mp3" preload hidden="false"></audio>
+<audio id="a6" src="/assets/mp3/365english/Week2_05_06.mp3" preload hidden="false"></audio>
+<audio id="a7" src="/assets/mp3/365english/Week2_05_07.mp3" preload hidden="false"></audio>
+<audio id="a8" src="/assets/mp3/365english/Week2_05_08.mp3" preload hidden="false"></audio>
+<audio id="a9" src="/assets/mp3/365english/Week2_05_09.mp3" preload hidden="false"></audio>
+<audio id="a10" src="/assets/mp3/365english/Week2_05_10.mp3" preload hidden="false"></audio>
 # <span style="color:#FF8000">Helen's diary</span>
 오늘 점심을 <span style="color:blue">라면</span>으로 <span style="color:blue">해결</span>했다.  
 사실은 사흘 <span style="color:blue">연속</span> 패스트푸드를 먹었다.  
@@ -38,11 +49,11 @@ last_modified_at: 2020-08-13T08:06:00-05:00
 <details>
 <summary>English</summary>
 <div markdown="1">
-I <span style="color:blue">made do with</span> <span style="color:green">instant noodles</span> for lunch today.  
-In fact, I ate fast food for three days <span style="color:blue">in a row.</span>  
-It is cheap and convenient.  
-But I know it can be <span style="color:blue">unhealthy.</span>  
-From now on, I'll try to eat more vegetables.  
+<span onclick="document.getElementById('a1').play(); return false;">I <span style="color:blue">made do with</span> <span style="color:green">instant noodles</span> for lunch today.</span>  
+<span onclick="document.getElementById('a2').play(); return false;">In fact, I ate fast food for three days <span style="color:blue">in a row.</span></span>  
+<span onclick="document.getElementById('a3').play(); return false;">It is cheap and convenient.</span>  
+<span onclick="document.getElementById('a4').play(); return false;">But I know it can be <span style="color:blue">unhealthy.</span></span>  
+<span onclick="document.getElementById('a5').play(); return false;">From now on, I'll try to eat more vegetables.</span>  
 </div>
 </details>
 <br>
@@ -56,11 +67,11 @@ From now on, I'll try to eat more vegetables.
 <details>
 <summary>English</summary>
 <div markdown="1">
-I <span style="color:blue">made do with</span> a hamburger for dinner today.  
-Actually, I ate fast food for four days in a row.  
-It is quick and easy.  
-But I know it can be <span style="color:blue">bad for my health.</span>  
-<span style="color:blue">Starting from now,</span> I'll try to eat fresh fruits every day.  
+<span onclick="document.getElementById('a6').play(); return false;">I <span style="color:blue">made do with</span> a hamburger for dinner today.</span>  
+<span onclick="document.getElementById('a7').play(); return false;">Actually, I ate fast food for four days in a row.</span>  
+<span onclick="document.getElementById('a8').play(); return false;">It is quick and easy.</span>  
+<span onclick="document.getElementById('a9').play(); return false;">But I know it can be <span style="color:blue">bad for my health.</span></span>  
+<span onclick="document.getElementById('a10').play(); return false;"><span style="color:blue">Starting from now,</span> I'll try to eat fresh fruits every day.</span>  
 </div>
 </details>
   
