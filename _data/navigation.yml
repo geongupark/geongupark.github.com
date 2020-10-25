@@ -10,6 +10,8 @@ main:
     url: /knowledge_map/
   - title: "Categories"
     url: /categories/
+  - title: "Books"
+    url: /books/
   - title: "About Gus"
     url: /gus/
   # - title: "Sitemap"
