@@ -1,0 +1,7 @@
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_4_1_class_property\2_4_1_class_property\bin\Debug\2_4_1_class_property.exe.config
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_4_1_class_property\2_4_1_class_property\bin\Debug\2_4_1_class_property.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_4_1_class_property\2_4_1_class_property\bin\Debug\2_4_1_class_property.pdb
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_4_1_class_property\2_4_1_class_property\obj\Debug\2_4_1_class_property.csprojAssemblyReference.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_4_1_class_property\2_4_1_class_property\obj\Debug\2_4_1_class_property.csproj.CoreCompileInputs.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_4_1_class_property\2_4_1_class_property\obj\Debug\2_4_1_class_property.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_4_1_class_property\2_4_1_class_property\obj\Debug\2_4_1_class_property.pdb
