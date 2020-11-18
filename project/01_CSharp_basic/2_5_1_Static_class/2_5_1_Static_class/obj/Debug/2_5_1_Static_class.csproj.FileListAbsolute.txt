@@ -1,0 +1,7 @@
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_1_Static_class\2_5_1_Static_class\bin\Debug\2_5_1_Static_class.exe.config
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_1_Static_class\2_5_1_Static_class\bin\Debug\2_5_1_Static_class.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_1_Static_class\2_5_1_Static_class\bin\Debug\2_5_1_Static_class.pdb
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_1_Static_class\2_5_1_Static_class\obj\Debug\2_5_1_Static_class.csprojAssemblyReference.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_1_Static_class\2_5_1_Static_class\obj\Debug\2_5_1_Static_class.csproj.CoreCompileInputs.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_1_Static_class\2_5_1_Static_class\obj\Debug\2_5_1_Static_class.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_1_Static_class\2_5_1_Static_class\obj\Debug\2_5_1_Static_class.pdb

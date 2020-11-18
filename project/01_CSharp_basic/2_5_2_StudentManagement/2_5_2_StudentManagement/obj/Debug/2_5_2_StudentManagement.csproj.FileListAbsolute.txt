@@ -1,0 +1,7 @@
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_2_StudentManagement\2_5_2_StudentManagement\bin\Debug\2_5_2_StudentManagement.exe.config
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_2_StudentManagement\2_5_2_StudentManagement\bin\Debug\2_5_2_StudentManagement.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_2_StudentManagement\2_5_2_StudentManagement\bin\Debug\2_5_2_StudentManagement.pdb
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_2_StudentManagement\2_5_2_StudentManagement\obj\Debug\2_5_2_StudentManagement.csprojAssemblyReference.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_2_StudentManagement\2_5_2_StudentManagement\obj\Debug\2_5_2_StudentManagement.csproj.CoreCompileInputs.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_2_StudentManagement\2_5_2_StudentManagement\obj\Debug\2_5_2_StudentManagement.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\2_5_2_StudentManagement\2_5_2_StudentManagement\obj\Debug\2_5_2_StudentManagement.pdb

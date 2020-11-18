@@ -1,0 +1,7 @@
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\3_4_1_practice_condition\06_for2\bin\Debug\06_for2.exe.config
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\3_4_1_practice_condition\06_for2\bin\Debug\06_for2.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\3_4_1_practice_condition\06_for2\bin\Debug\06_for2.pdb
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\3_4_1_practice_condition\06_for2\obj\Debug\06_for2.csprojAssemblyReference.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\3_4_1_practice_condition\06_for2\obj\Debug\06_for2.csproj.CoreCompileInputs.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\3_4_1_practice_condition\06_for2\obj\Debug\06_for2.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\3_4_1_practice_condition\06_for2\obj\Debug\06_for2.pdb
