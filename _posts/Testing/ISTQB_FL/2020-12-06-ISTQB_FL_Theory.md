@@ -58,33 +58,14 @@ last_modified_at: 2020-12-6T08:06:00-05:00
 - Testing은 QC에 해당된다.
 - QC는 QA에게 테스트 데이터를 제공하여 프로세스의 개선을 도우며 QA는 QC에 프로세스를 제공한다.
 
-<div class="mermaid" style="font-size:1.5em">
-flowchart LR;
-	subgraph QM;
-		stateA(QA);	%% It means QA
-		stateC(QC);
-	end;
-	
-  stateA-->|프로세스 제공|stateC;
-  stateC-->|테스팅 데이터 제공|stateA;
-</div>
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IFRCXG5cdHN1YmdyYXBoIFFNXG5cdFx0c3RhdGVBKFFBKS0tPnztlITroZzshLjsiqQg7KCc6rO1fHN0YXRlQyhRQyktLT587YWM7Iqk7YyFIOuNsOydtO2EsCDsoJzqs7V8c3RhdGVBO1xuXHRlbmQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IFRCXG5cdHN1YmdyYXBoIFFNXG5cdFx0c3RhdGVBKFFBKS0tPnztlITroZzshLjsiqQg7KCc6rO1fHN0YXRlQyhRQyktLT587YWM7Iqk7YyFIOuNsOydtO2EsCDsoJzqs7V8c3RhdGVBO1xuXHRlbmQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
 
 ### 1.2.3 오류, 결함, 장애
 - 오류(Error) : 개발자, 디자이너, 테스터 등 사람의 실수, 경험 부족, 심리적 요인 등으로 인해 발생
 - 결함(Defact) : 오류로 인해 [test basis](#testbasisgus "> 요구사항, 설계문서, 코드 등 개발 산출물")에 발생한 문제
 - 장애(Failure) : 고객 사용 단계에서 발생하는 문제, 장애의 원인은 결함 or [환경 조건](#envgus "> 운용환경과의 호환성/환경성")이 될 수 있음
 
-<div class="mermaid" style="font-size:1em">
-flowchart LR;
- error(Error);
- defact(Defact);
- failure(Failure);
- env(Enviroment)
-
- error-->defact;
- defact-->failure;
- env-->failure;
-</div>
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSO1xuIGVycm9yKEVycm9yKTtcbiBkZWZhY3QoRGVmYWN0KTtcbiBmYWlsdXJlKEZhaWx1cmUpO1xuIGVudihFbnZpcm9tZW50KVxuXG4gZXJyb3ItLT5kZWZhY3Q7XG4gZGVmYWN0LS0-ZmFpbHVyZTtcbiBlbnYtLT5mYWlsdXJlOyIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSO1xuIGVycm9yKEVycm9yKTtcbiBkZWZhY3QoRGVmYWN0KTtcbiBmYWlsdXJlKEZhaWx1cmUpO1xuIGVudihFbnZpcm9tZW50KVxuXG4gZXJyb3ItLT5kZWZhY3Q7XG4gZGVmYWN0LS0-ZmFpbHVyZTtcbiBlbnYtLT5mYWlsdXJlOyIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
 ### 1.2.4 결함, 근본 원인, 결과
 - 결함을 분석함으로써 근본 원인을 찾을 수 있다.
@@ -108,7 +89,67 @@ flowchart LR;
 모든 결함을 발견 할 수 없으며 많은 결함을 발견했다고 성공을 보장 할 수 없다.
 
 ## 1.4 테스트 프로세스
+주어진 상황에 맞는 구체적인 소프트웨어 테스트 프로시저는 다양한 변수에 따라 결정된다.
 
+### 1.4.1 정황에 따른 테스트 프로세스
+- 정황(예산과 자원, 제품 분야, 적용하고자 하는 테스트레벨과 유형 등)에 따라 테스트 프로세스가 결정된다.
+- 테스트 프로세스는 테스트 계획, 분석, 설계, 테스트 구현, 테스트 진행 상황 및 결과 보고, 테스트 대상 품질 평가 등으로 구성된다.
+
+### 1.4.2 테스트 활동과 작업 (동적 테스트 프로세스) / 1.4.3 테스트 작업 산출물
+- 테스트 프로세스(동적)에 대해 살펴보자.
+- 관리자가 주도하는 <span style="color:#FF88FF">**관리 프로세스(Management process/ 1,2,7)**</span>, 테스터가 주도하는 <span style="color:#8888FF">**실행 프로세스(Execution process/ 3,4,5,6)**</span>로 나뉜다.
+
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5cbiAgQSgxLiBUZXN0IHBsYW5uaW5nKS0tPkIoMi4gVGVzdCBtb25pdG9yaW5nIGFuZCBjb250cm9sKS0tPkMoNy4gVGVzdCBjb21wbGV0aW9uKVxuXG4gIHN1YmdyYXBoIEV4ZWN1dGlvbl9wcm9jZXNzXG4gICAgRCgzLiBUZXN0IGFuYWx5c2lzKS0tPkUoNC4gVGVzdCBkZXNpZ24pLS0-Rig1LiBUZXN0IGltcGxlbWVudGF0aW9uKS0tPkcoNi4gVGVzdCBleGVjdXRpb24pXG4gIGVuZFxuXG4gIEEtLT5EXG4gIEctLT5DXG4gIEI8LS0-RXhlY3V0aW9uX3Byb2Nlc3NcblxuIHN0eWxlIEEgZmlsbDojRkNGXG4gc3R5bGUgQiBmaWxsOiNGQ0ZcbiBzdHlsZSBDIGZpbGw6I0ZDRlxuIHN0eWxlIEQgZmlsbDojQ0NGXG4gc3R5bGUgRSBmaWxsOiNDQ0ZcbiBzdHlsZSBGIGZpbGw6I0NDRlxuIHN0eWxlIEcgZmlsbDojQ0NGXG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5cbiAgQSgxLiBUZXN0IHBsYW5uaW5nKS0tPkIoMi4gVGVzdCBtb25pdG9yaW5nIGFuZCBjb250cm9sKS0tPkMoNy4gVGVzdCBjb21wbGV0aW9uKVxuXG4gIHN1YmdyYXBoIEV4ZWN1dGlvbl9wcm9jZXNzXG4gICAgRCgzLiBUZXN0IGFuYWx5c2lzKS0tPkUoNC4gVGVzdCBkZXNpZ24pLS0-Rig1LiBUZXN0IGltcGxlbWVudGF0aW9uKS0tPkcoNi4gVGVzdCBleGVjdXRpb24pXG4gIGVuZFxuXG4gIEEtLT5EXG4gIEctLT5DXG4gIEI8LS0-RXhlY3V0aW9uX3Byb2Nlc3NcblxuIHN0eWxlIEEgZmlsbDojRkNGXG4gc3R5bGUgQiBmaWxsOiNGQ0ZcbiBzdHlsZSBDIGZpbGw6I0ZDRlxuIHN0eWxlIEQgZmlsbDojQ0NGXG4gc3R5bGUgRSBmaWxsOiNDQ0ZcbiBzdHlsZSBGIGZpbGw6I0NDRlxuIHN0eWxlIEcgZmlsbDojQ0NGXG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+
+1. 테스트 계획 (Test planning)
+- [테스트의 목적](#1421 "> 품질 risk 감소")과 정황에 따른 제약 사항을 고려하여 목적 달성을 위해 필요한 평가 방법을 정의하는 과정이다.
+- 테스트 계획은 테스트 모니터링과 [제어 활동에서 나온 피드백](#1421 "> metric, test data")을 기반으로 수정 및 [업데이트](#1421 "> 업데이트가 없다면 살충제 페러독스에 빠질 수 있다.") 할 수 있다.
+- 산출물 : 테스트 계획, Test basis
+
+2. 테스트 모니터링과 제어 (Test monitoring and control)
+- 테스트 모니터링 : 테스트 모니터링 [메트릭](#1422 "> 테스트 중 얻어지는 산출물")을 활용해 진행 상황과 원래 계획을 비교하는 활동
+- 테스트 제어 : 모니터링을 토대로 테스트 계획을 수정 및 업데이트 하는 과정
+- 이 과정에서 종료 조건 평가를 하며 이를 통해 다음 단계로 진행한다.
+- 산출물 : 테스트 진행 현황 보고서
+
+3. 테스트 분석 (Test analysis)
+- 무엇을 테스트 할 지 결정하는 과정이다.
+- [테스트 베이시스](#1423 "> 개발 산출물. ex) 명세, 모델, 코드")를 분석하여 테스트 가능한 기능인 테스트 컨디션과 기대결과인 테스트 오라클을 식별한다.
+- 산출물 : 테스트 컨디션, 테스트 차터, 테스트 오라클
+
+4. 테스트 설계 (Test design)
+- 테스트 컨디션과 테스트 오라클을 기반으로 상위 수준 테스트 케이스, 테스트 케이스 세트를 생성하고 [테스트 데이터](#1424 "> 테스트 케이스의 입력 값")를 식별한다.
+- 평가에 필요한 인프라 설계 및 도구 식별한다.
+- 산출물 : 테스트 케이스, 테스트 데이터
+
+5. 테스트 구현 (Test implementation)
+- [테스트 프로시저](#1425 "> 사람이 수행 할 테스트 케이스 묶음") 개발 및 [자동 테스트 스크립트](#1425 "> 자동화로 수행 할 테스트 스크립트 (테스트 케이스 + 테스트 데이터)") 생성
+- 테스트 인프라 구축 및 확인
+- 이를 기반으로 [테스트 스위트](#1425 "> 테스트 스위트 : "테스트 프로시저 + 평가 환경" or "자동 테스트 스크립트 + 평가 환경"") 생성 및 테스트 일정 수립
+- 테스트 데이터 준비 및 평가 환경 세팅 확인
+- 산출물 : 테스트 프로시저, 자동 테스트 스크립트, 테스트 스위트
+
+6. 테스트 실행 (Test execution)
+- 일정에 따라 테스트 스위트 실행
+- 기대 결과와 실제 결과를 비교하여 결함 발생시 결함 보고
+- 산출물 : 결함 보고서
+
+7. 테스트 완료 (Test completion)
+- 테스트 요약 보고서 작성
+- 모든 결함 보고 처리 완료 했는지 확인
+- 산출물 : 테스트 요약 보고서
+
+### 1.4.4 테스트 베이시스와 테스트 작업 산출물 간의 추적성
+- 테스트 베이시스와 작업 산출물 간의 추적성은 제품 품질을 평가 할 수 있는 정보(커버리지)를 제공한다.
+
+## 1.5 테스팅의 심리학
+
+### 1.5.1 인간 심리학과 테스팅
+- 협력이 중요하다!
+
+### 1.5.2 테스터와 개발자의 사고방식
+- 개발자 : 해결책을 찾는데 관심이 많지만 그 해결책에 문제가 없는지는 관심이 적다. 확증 편향으로 자신의 오류를 인지하기 힘들다.
+- 테스터 : 비판적인 시각과 세밀한 것에 집중하는 능력이 필요하다. 긍정적인 마인드도 중요하다.
 
 # 2. 소프트웨어 개발 수명 주기와 테스팅
 
