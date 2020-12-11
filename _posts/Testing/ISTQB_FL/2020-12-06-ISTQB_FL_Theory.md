@@ -336,7 +336,9 @@ A.
 - 이 중 유효 동등 파티션을 커버하는 최소 테스트 케이스 수는 유효 동등 파티션 개수인 4개이다.
 - 즉, 4개의 테스트 케이스로 평가를 진행했다면 "최소한 한개의 값으로 테스트한 동등 분할 수/모든 동등 분할 수 (%)" = 4/5 * 100 = 80%가 된다.
 ```
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT5867mE7Jyg7ZqofC0xLS0tMFxuICAgMDwtLS0-fOycoO2aqHwyLS0tMzwtLS0-fOycoO2aqHw0XG4gICA0LS0tNTwtLS0-fOycoO2aqHwxMFxuICAgMTAtLS0xMTwtLS0-fOycoO2aqHwraW5mIiwibWVybWFpZCI6e30sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT5867mE7Jyg7ZqofC0xLS0tMFxuICAgMDwtLS0-fOycoO2aqHwyLS0tMzwtLS0-fOycoO2aqHw0XG4gICA0LS0tNTwtLS0-fOycoO2aqHwxMFxuICAgMTAtLS0xMTwtLS0-fOycoO2aqHwraW5mIiwibWVybWFpZCI6e30sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
+
+> 동등분할
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT5867mE7Jyg7ZqofC0xLS0tMFxuICAgMDwtLS0-fOycoO2aqHwyLS0tMzwtLS0-fOycoO2aqHw0XG4gICA0LS0tNTwtLS0-fOycoO2aqHwxMFxuICAgMTAtLS0xMTwtLS0-fOycoO2aqHwraW5mXG4gICAiLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT5867mE7Jyg7ZqofC0xLS0tMFxuICAgMDwtLS0-fOycoO2aqHwyLS0tMzwtLS0-fOycoO2aqHw0XG4gICA0LS0tNTwtLS0-fOycoO2aqHwxMFxuICAgMTAtLS0xMTwtLS0-fOycoO2aqHwraW5mXG4gICAiLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 
 ### 4.2.2 경계값 분석
 - 동등 분할의 확장형으로 각 클래스(파티션)가 순서화되어 있고, 숫자 또는 연속 데이터로 구성된 경우에만 적용한다.
@@ -357,11 +359,12 @@ A.
 > 2-value 경계값 : (50, 51), (55, 56), (60, 61)
 > 3-value 경계값 : (49, 50, 51), (54, 55, 56), (59, 60, 61) 
 ```
-- 2-value 경계값 분석  
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT41MC0tLTUxXG4gICA1MTwtLS0-NTUtLS01NjwtLS0-NjBcbiAgIDYwLS0tNjE8LS0tPitpbmYiLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT41MC0tLTUxXG4gICA1MTwtLS0-NTUtLS01NjwtLS0-NjBcbiAgIDYwLS0tNjE8LS0tPitpbmYiLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+
+> 2-value 경계값 분석  
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT41MC0tLTUxXG4gICA1MTwtLS0-NTUtLS01NjwtLS0-NjBcbiAgIDYwLS0tNjE8LS0tPitpbmZcbiAgICIsIm1lcm1haWQiOnt9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT41MC0tLTUxXG4gICA1MTwtLS0-NTUtLS01NjwtLS0-NjBcbiAgIDYwLS0tNjE8LS0tPitpbmZcbiAgICIsIm1lcm1haWQiOnt9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
   
-- 3-value 경계값 분석  
-[![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLS0-NDktLS01MC0tLTUxXG4gICA1MTwtLS0tPjU0LS0tNTUtLS01NjwtLS0tPjU5LS0tNjBcbiAgIDYwLS0tNjE8LS0tLT4raW5mIiwibWVybWFpZCI6e30sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLS0-NDktLS01MC0tLTUxXG4gICA1MTwtLS0tPjU0LS0tNTUtLS01NjwtLS0tPjU5LS0tNjBcbiAgIDYwLS0tNjE8LS0tLT4raW5mIiwibWVybWFpZCI6e30sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
+> 3-value 경계값 분석  
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLS0-NDktLS01MC0tLTUxXG4gICA1MTwtLS0tPjU0LS0tNTUtLS01NjwtLS0tPjU5LS0tNjBcbiAgIDYwLS0tNjE8LS0tLT4raW5mXG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLS0-NDktLS01MC0tLTUxXG4gICA1MTwtLS0tPjU0LS0tNTUtLS01NjwtLS0tPjU5LS0tNjBcbiAgIDYwLS0tNjE8LS0tLT4raW5mXG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 
 ### 4.2.3 결정 테이블 테스팅
 - 시스템이 구현해야 하는 복잡한 비즈니스 규칙을 기록하는 방법이다.
