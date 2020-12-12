@@ -57,15 +57,19 @@ last_modified_at: 2020-12-6T08:06:00-05:00
 - Quality management(QM)에 Quality assurance(QA)와 Quality control(QC)이 포함된다.
 - Testing은 QC에 해당된다.
 - QC는 QA에게 테스트 데이터를 제공하여 프로세스의 개선을 도우며 QA는 QC에 프로세스를 제공한다.
+![QM,QA,QC의 관계](/assets/images/201212_Theory_ISTQB/1_2_2.png "QM,QA,QC의 관계")
 
+<!--
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IFRCXG5cdHN1YmdyYXBoIFFNXG5cdFx0c3ViZ3JhcGggUUFcblx0XHRlbmRcblx0XHRzdWJncmFwaCBRQ1xuXHRcdFx0dGVzdGluZ1xuXHRcdGVuZFxuXHRcdFFBIC0tPiB87ZSE66Gc7IS47IqkIOygnOqztXxRQy0tPnzthYzsiqTtjIUg642w7J207YSwIOygnOqztXxRQVxuXHRlbmQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IFRCXG5cdHN1YmdyYXBoIFFNXG5cdFx0c3ViZ3JhcGggUUFcblx0XHRlbmRcblx0XHRzdWJncmFwaCBRQ1xuXHRcdFx0dGVzdGluZ1xuXHRcdGVuZFxuXHRcdFFBIC0tPiB87ZSE66Gc7IS47IqkIOygnOqztXxRQy0tPnzthYzsiqTtjIUg642w7J207YSwIOygnOqztXxRQVxuXHRlbmQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
-
+-->
 ### 1.2.3 오류, 결함, 장애
 - 오류(Error) : 개발자, 디자이너, 테스터 등 사람의 실수, 경험 부족, 심리적 요인 등으로 인해 발생
 - 결함(Defact) : 오류로 인해 [test basis](#testbasisgus "> 요구사항, 설계문서, 코드 등 개발 산출물")에 발생한 문제
 - 장애(Failure) : 고객 사용 단계에서 발생하는 문제, 장애의 원인은 결함 or [환경 조건](#envgus "> 운용환경과의 호환성/환경성")이 될 수 있음
-
+![오류, 결함, 장애의 상관 관계](/assets/images/201212_Theory_ISTQB/1_2_3.png "오류, 결함, 장애의 상관 관계")
+<!--
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSO1xuIGVycm9yKEVycm9yKTtcbiBkZWZhY3QoRGVmYWN0KTtcbiBmYWlsdXJlKEZhaWx1cmUpO1xuIGVudihFbnZpcm9tZW50KVxuXG4gZXJyb3ItLT5kZWZhY3Q7XG4gZGVmYWN0LS0-ZmFpbHVyZTtcbiBlbnYtLT5mYWlsdXJlOyIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSO1xuIGVycm9yKEVycm9yKTtcbiBkZWZhY3QoRGVmYWN0KTtcbiBmYWlsdXJlKEZhaWx1cmUpO1xuIGVudihFbnZpcm9tZW50KVxuXG4gZXJyb3ItLT5kZWZhY3Q7XG4gZGVmYWN0LS0-ZmFpbHVyZTtcbiBlbnYtLT5mYWlsdXJlOyIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
+-->
 
 ### 1.2.4 결함, 근본 원인, 결과
 - 결함을 분석함으로써 근본 원인을 찾을 수 있다.
@@ -99,7 +103,10 @@ last_modified_at: 2020-12-6T08:06:00-05:00
 - 테스트 프로세스(동적)에 대해 살펴보자.  
 - 관리자가 주도하는 <span style="color:#FF88FF">**관리 프로세스(Management process/ 1,2,7)**</span>, 테스터가 주도하는 <span style="color:#8888FF">**실행 프로세스(Execution process/ 3,4,5,6)**</span>로 나뉜다.
 
+![동적 테스트 프로세스](/assets/images/201212_Theory_ISTQB/1_4_2.png "동적 테스트 프로세스")
+<!--
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5cbiAgQSgxLiBUZXN0IHBsYW5uaW5nKS0tPkIoMi4gVGVzdCBtb25pdG9yaW5nIGFuZCBjb250cm9sKS0tPkMoNy4gVGVzdCBjb21wbGV0aW9uKVxuXG4gIHN1YmdyYXBoIEV4ZWN1dGlvbl9wcm9jZXNzXG4gICAgRCgzLiBUZXN0IGFuYWx5c2lzKS0tPkUoNC4gVGVzdCBkZXNpZ24pLS0-Rig1LiBUZXN0IGltcGxlbWVudGF0aW9uKS0tPkcoNi4gVGVzdCBleGVjdXRpb24pXG4gIGVuZFxuXG4gIEEtLT5EXG4gIEctLT5DXG4gIEI8LS0-RXhlY3V0aW9uX3Byb2Nlc3NcblxuIHN0eWxlIEEgZmlsbDojRkNGXG4gc3R5bGUgQiBmaWxsOiNGQ0ZcbiBzdHlsZSBDIGZpbGw6I0ZDRlxuIHN0eWxlIEQgZmlsbDojQ0NGXG4gc3R5bGUgRSBmaWxsOiNDQ0ZcbiBzdHlsZSBGIGZpbGw6I0NDRlxuIHN0eWxlIEcgZmlsbDojQ0NGXG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5cbiAgQSgxLiBUZXN0IHBsYW5uaW5nKS0tPkIoMi4gVGVzdCBtb25pdG9yaW5nIGFuZCBjb250cm9sKS0tPkMoNy4gVGVzdCBjb21wbGV0aW9uKVxuXG4gIHN1YmdyYXBoIEV4ZWN1dGlvbl9wcm9jZXNzXG4gICAgRCgzLiBUZXN0IGFuYWx5c2lzKS0tPkUoNC4gVGVzdCBkZXNpZ24pLS0-Rig1LiBUZXN0IGltcGxlbWVudGF0aW9uKS0tPkcoNi4gVGVzdCBleGVjdXRpb24pXG4gIGVuZFxuXG4gIEEtLT5EXG4gIEctLT5DXG4gIEI8LS0-RXhlY3V0aW9uX3Byb2Nlc3NcblxuIHN0eWxlIEEgZmlsbDojRkNGXG4gc3R5bGUgQiBmaWxsOiNGQ0ZcbiBzdHlsZSBDIGZpbGw6I0ZDRlxuIHN0eWxlIEQgZmlsbDojQ0NGXG4gc3R5bGUgRSBmaWxsOiNDQ0ZcbiBzdHlsZSBGIGZpbGw6I0NDRlxuIHN0eWxlIEcgZmlsbDojQ0NGXG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+-->
 
 1. 테스트 계획 (Test planning)
 - [테스트의 목적](#1421 "> 품질 risk 감소")과 정황에 따른 제약 사항을 고려하여 목적 달성을 위해 필요한 평가 방법을 정의하는 과정이다.
@@ -169,10 +176,13 @@ last_modified_at: 2020-12-6T08:06:00-05:00
 ## 2.2 테스트 레벨
 - 테스트 레벨은 컴포넌트 테스팅, 통합 테스팅, 시스템 테스팅, 인수 테스팅의 4가지로 구성된다.
 - V-cycle의 우측 단계를 나타낸다. V-cycle의 좌축은 [verification](#2221 "> 시스템이 주어진 명세를 만족하는지 평가")을 나타내고 우측은 [validation](#2222 "> 시스템이 사용자 요구사항 및 환경에 적합한지 평가")을 나타낸다.
-- V-cycle과 앞서 배운 테스트 프로세스를 시간 순서로 함께 이해하면 좋다.
-
+- V-cycle과 앞서 배운 테스트 프로세스는 동시에 병렬적으로 진행되니 시간 순서로 함께 이해하면 좋다.
+![V-cycle의 테스트 레벨](/assets/images/201212_Theory_ISTQB/2_2_a.png "V-cycle의 테스트 레벨")
+![동적 테스트 프로세스](/assets/images/201212_Theory_ISTQB/2_2_b.png "동적 테스트 프로세스")
+<!--
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5cbiAgICBzdWJncmFwaCBsYXllcjRcbiAgICAgICAg7JqU6rWs7IKs7ZWt67aE7ISdIC0tLSDsnbjsiJjthYzsiqTtirhcbiAgICBlbmRcbiAgICBzdWJncmFwaCBsYXllcjNcbiAgICAgICAg67mE7KaI64uI7Iqk7ISk6rOEIC0tLSDsi5zsiqTthZzthYzsiqTtirhcbiAgICBlbmRcblxuICAgIHN1YmdyYXBoIGxheWVyMlxuICAgICAgICDsi5zsiqTthZzshKTqs4QgLS0tIO2Gte2Vqe2FjOyKpO2KuFxuICAgIGVuZFxuICAgIHN1YmdyYXBoIGxheWVyMVxuICAgICAgICDsvZTrlKkgLS0tIOy7tO2PrOuEjO2KuO2FjOyKpO2KuFxuICAgIGVuZFxuICAgIOyalOq1rOyCrO2Vreu2hOyEnSAtLT4g67mE7KaI64uI7Iqk7ISk6rOEXG4gICAg7Iuc7Iqk7YWc7YWM7Iqk7Yq4IC0tPiDsnbjsiJjthYzsiqTtirhcbiAgICDruYTspojri4jsiqTshKTqs4QgLS0-IOyLnOyKpO2FnOyEpOqzhFxuICAgIO2Gte2Vqe2FjOyKpO2KuCAtLT4g7Iuc7Iqk7YWc7YWM7Iqk7Yq4XG4gICAg7Iuc7Iqk7YWc7ISk6rOEIC0tPiDsvZTrlKlcbiAgICDsu7Ttj6zrhIztirjthYzsiqTtirggLS0-IO2Gte2Vqe2FjOyKpO2KuFxuXG5cbiIsIm1lcm1haWQiOnt9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5cbiAgICBzdWJncmFwaCBsYXllcjRcbiAgICAgICAg7JqU6rWs7IKs7ZWt67aE7ISdIC0tLSDsnbjsiJjthYzsiqTtirhcbiAgICBlbmRcbiAgICBzdWJncmFwaCBsYXllcjNcbiAgICAgICAg67mE7KaI64uI7Iqk7ISk6rOEIC0tLSDsi5zsiqTthZzthYzsiqTtirhcbiAgICBlbmRcblxuICAgIHN1YmdyYXBoIGxheWVyMlxuICAgICAgICDsi5zsiqTthZzshKTqs4QgLS0tIO2Gte2Vqe2FjOyKpO2KuFxuICAgIGVuZFxuICAgIHN1YmdyYXBoIGxheWVyMVxuICAgICAgICDsvZTrlKkgLS0tIOy7tO2PrOuEjO2KuO2FjOyKpO2KuFxuICAgIGVuZFxuICAgIOyalOq1rOyCrO2Vreu2hOyEnSAtLT4g67mE7KaI64uI7Iqk7ISk6rOEXG4gICAg7Iuc7Iqk7YWc7YWM7Iqk7Yq4IC0tPiDsnbjsiJjthYzsiqTtirhcbiAgICDruYTspojri4jsiqTshKTqs4QgLS0-IOyLnOyKpO2FnOyEpOqzhFxuICAgIO2Gte2Vqe2FjOyKpO2KuCAtLT4g7Iuc7Iqk7YWc7YWM7Iqk7Yq4XG4gICAg7Iuc7Iqk7YWc7ISk6rOEIC0tPiDsvZTrlKlcbiAgICDsu7Ttj6zrhIztirjthYzsiqTtirggLS0-IO2Gte2Vqe2FjOyKpO2KuFxuXG5cbiIsIm1lcm1haWQiOnt9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5cbiAgQSgxLiBUZXN0IHBsYW5uaW5nKS0tPkIoMi4gVGVzdCBtb25pdG9yaW5nIGFuZCBjb250cm9sKS0tPkMoNy4gVGVzdCBjb21wbGV0aW9uKVxuXG4gIHN1YmdyYXBoIEV4ZWN1dGlvbl9wcm9jZXNzXG4gICAgRCgzLiBUZXN0IGFuYWx5c2lzKS0tPkUoNC4gVGVzdCBkZXNpZ24pLS0-Rig1LiBUZXN0IGltcGxlbWVudGF0aW9uKS0tPkcoNi4gVGVzdCBleGVjdXRpb24pXG4gIGVuZFxuXG4gIEEtLT5EXG4gIEctLT5DXG4gIEI8LS0-RXhlY3V0aW9uX3Byb2Nlc3NcblxuIHN0eWxlIEEgZmlsbDojRkNGXG4gc3R5bGUgQiBmaWxsOiNGQ0ZcbiBzdHlsZSBDIGZpbGw6I0ZDRlxuIHN0eWxlIEQgZmlsbDojQ0NGXG4gc3R5bGUgRSBmaWxsOiNDQ0ZcbiBzdHlsZSBGIGZpbGw6I0NDRlxuIHN0eWxlIEcgZmlsbDojQ0NGXG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5cbiAgQSgxLiBUZXN0IHBsYW5uaW5nKS0tPkIoMi4gVGVzdCBtb25pdG9yaW5nIGFuZCBjb250cm9sKS0tPkMoNy4gVGVzdCBjb21wbGV0aW9uKVxuXG4gIHN1YmdyYXBoIEV4ZWN1dGlvbl9wcm9jZXNzXG4gICAgRCgzLiBUZXN0IGFuYWx5c2lzKS0tPkUoNC4gVGVzdCBkZXNpZ24pLS0-Rig1LiBUZXN0IGltcGxlbWVudGF0aW9uKS0tPkcoNi4gVGVzdCBleGVjdXRpb24pXG4gIGVuZFxuXG4gIEEtLT5EXG4gIEctLT5DXG4gIEI8LS0-RXhlY3V0aW9uX3Byb2Nlc3NcblxuIHN0eWxlIEEgZmlsbDojRkNGXG4gc3R5bGUgQiBmaWxsOiNGQ0ZcbiBzdHlsZSBDIGZpbGw6I0ZDRlxuIHN0eWxlIEQgZmlsbDojQ0NGXG4gc3R5bGUgRSBmaWxsOiNDQ0ZcbiBzdHlsZSBGIGZpbGw6I0NDRlxuIHN0eWxlIEcgZmlsbDojQ0NGXG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+-->
 
 ### 2.2.1 컴포넌트 테스팅
 - 목적 : 컴포넌트의 기능/비기능 동작이 설계 및 명세와 일치하는지 판단
@@ -250,7 +260,10 @@ last_modified_at: 2020-12-6T08:06:00-05:00
 
 ### 3.2.1 작업 산출물 리뷰 프로세스
 
+![작업 산출물 리뷰 프로세스](/assets/images/201212_Theory_ISTQB/3_2_1.png "작업 산출물 리뷰 프로세스")
+<!--
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5cbiAgIEEo6rOE7ZqNKSAtLS0-IEIo66as67ewIOywqeyImCkgLS0tPiBDKOqwnOuzhCDrpqzrt7ApIC0tLT4gRCjsnbTsiogg64W87J2YIOuwjyDrtoTshJ0pIC0tLT4gRSjsiJjsoJUg67CPIOuztOqzoClcbiIsIm1lcm1haWQiOnt9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG5cbiAgIEEo6rOE7ZqNKSAtLS0-IEIo66as67ewIOywqeyImCkgLS0tPiBDKOqwnOuzhCDrpqzrt7ApIC0tLT4gRCjsnbTsiogg64W87J2YIOuwjyDrtoTshJ0pIC0tLT4gRSjsiJjsoJUg67CPIOuztOqzoClcbiIsIm1lcm1haWQiOnt9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
+-->
 1. 계획
 - 관리자가 주도하는 과정으로 리뷰 목적, 노력과 기간을 추정한다.
 - 리뷰에 참여할 인원을 선정하고 역할을 할당한다.
@@ -336,9 +349,10 @@ A.
 - 이 중 유효 동등 파티션을 커버하는 최소 테스트 케이스 수는 유효 동등 파티션 개수인 4개이다.
 - 즉, 4개의 테스트 케이스로 평가를 진행했다면 "최소한 한개의 값으로 테스트한 동등 분할 수/모든 동등 분할 수 (%)" = 4/5 * 100 = 80%가 된다.
 ```
-
-> 동등분할
+![동등 분할 예](/assets/images/201212_Theory_ISTQB/4_2_1.png "동등 분할 예")
+<!--
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT5867mE7Jyg7ZqofC0xLS0tMFxuICAgMDwtLS0-fOycoO2aqHwyLS0tMzwtLS0-fOycoO2aqHw0XG4gICA0LS0tNTwtLS0-fOycoO2aqHwxMFxuICAgMTAtLS0xMTwtLS0-fOycoO2aqHwraW5mXG4gICAiLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT5867mE7Jyg7ZqofC0xLS0tMFxuICAgMDwtLS0-fOycoO2aqHwyLS0tMzwtLS0-fOycoO2aqHw0XG4gICA0LS0tNTwtLS0-fOycoO2aqHwxMFxuICAgMTAtLS0xMTwtLS0-fOycoO2aqHwraW5mXG4gICAiLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+-->
 
 ### 4.2.2 경계값 분석
 - 동등 분할의 확장형으로 각 클래스(파티션)가 순서화되어 있고, 숫자 또는 연속 데이터로 구성된 경우에만 적용한다.
@@ -360,11 +374,16 @@ A.
 > 3-value 경계값 : (49, 50, 51), (54, 55, 56), (59, 60, 61) 
 ```
 
-> 2-value 경계값 분석  
+- 2-value 경계값 분석  
+![2-value 경계값 분석](/assets/images/201212_Theory_ISTQB/4_2_2_a.png "2-value 경계값 분석")
+<!--
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT41MC0tLTUxXG4gICA1MTwtLS0-NTUtLS01NjwtLS0-NjBcbiAgIDYwLS0tNjE8LS0tPitpbmZcbiAgICIsIm1lcm1haWQiOnt9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLT41MC0tLTUxXG4gICA1MTwtLS0-NTUtLS01NjwtLS0-NjBcbiAgIDYwLS0tNjE8LS0tPitpbmZcbiAgICIsIm1lcm1haWQiOnt9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
-  
-> 3-value 경계값 분석  
+-->
+- 3-value 경계값 분석  
+![3-value 경계값 분석](/assets/images/201212_Theory_ISTQB/4_2_2_b.png "3-value 경계값 분석")
+<!--
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLS0-NDktLS01MC0tLTUxXG4gICA1MTwtLS0tPjU0LS0tNTUtLS01NjwtLS0tPjU5LS0tNjBcbiAgIDYwLS0tNjE8LS0tLT4raW5mXG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZmxvd2NoYXJ0IExSXG4gICAtaW5mPC0tLS0-NDktLS01MC0tLTUxXG4gICA1MTwtLS0tPjU0LS0tNTUtLS01NjwtLS0tPjU5LS0tNjBcbiAgIDYwLS0tNjE8LS0tLT4raW5mXG4iLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
+-->
 
 ### 4.2.3 결정 테이블 테스팅
 - 시스템이 구현해야 하는 복잡한 비즈니스 규칙을 기록하는 방법이다.
@@ -374,7 +393,7 @@ A.
 - 커버리지 : 최소 한개의 테스트 케이스로 테스트 한 결정 규칙의 수/ 식별한 모든 결정 규칙의 수(%)
 
 | 항목 | 조건의 조합 |
-|---|:---:|
+|:---|:---|
 |입력조건|참과 거짓으로 표현되는 조건|
 |Trigger 조건|동작을 유발 시키는 조건|
 |예상결과|각 Triggering conditions의 예상결과|
@@ -393,6 +412,7 @@ A.
 
 ## 4.3 화이트박스 테스트 기법
 - 화이트 박스 테스팅은 대상 시스템의 내부 구조를 기반으로 한다.
+
 ### 4.3.1 구문 테스팅과 커버리지
 - 코드의 잠재적 실행 가능 구문을 수행.
 - 커버리지 : 실행한 구문의 수 / 테스트 대상의 모든 실행 가능한 구문의 수
@@ -449,8 +469,140 @@ A. 어느 조건에도 해당 되지 않는 default 까지 합쳐서 5개
 
 # 5. 테스트 관리
 
+## 5.1 테스트 조직
+
+### 5.1.1 독립적인 테스팅
+- 대부분의 프로젝트에서 보통 여러 테스트 레벨을 두고 그 중 일부는 독립적인 테스터가 담당하도록 하는 것이 최적이다.
+- 독립적인 테스팅 장점 : 독립적인 테스터를 두면 개발자와는 다른 유형의 장애를 찾을 수 있다.
+- 독립적인 테스팅 단점 : 개발팀과의 고립으로 협업이 어려울 수 있다. 심하면 적대적 관계가 될 수 있다.
+
+### 5.1.2 테스트 관리자 및 테스터의 역할
+- 테스트 관리자와 테스터의 역할은 다르다.
+
+| 테스트 관리자 | 테스터 |
+|:---|:---|
+|- 테스트 프로세스에 대한 전반적인 책임<br>- 결정권에 대한 권한<br>- 조직에 테스터에 대한 홍보 및 지지 요청|- 테스트 계획 리뷰 및 수행<br>- 테스트 실행 결과 기록 및 분석<br>- 필요할 경우 테스트 자동화 수행|
+
+## 5.2 테스트 계획과 추정
+
+### 5.2.1 테스트 계획의 목적과 내용
+- 테스트 계획은 개발 및 유지보수 프로젝트의 평가 활동에 대한 전반적인 내용을 담는다.
+- 테스트 계획 활동은 제품 수명주기 전반에 걸쳐 이루어지는 지속적 활동이다.
+
+### 5.2.2 테스트 전략과 테스트 접근법
+- 테스트 전략은 평가 프로세스의 일반적인 모습을 반영한다.
+
+| No | Item | Description | Exmaple |
+|:---:|:---|:---|:---|
+|1|분석적|특정 요소에 대한 분석을 기반으로한 평가 방법.|ex) 리스크 기반 평가|
+|2|모델 기반|요구되는 제품의 특정 측면에 대한 모델을 기반으로 평가|-|
+|3|방법론적|사전 정의한 테스트 셋이나 테스트 컨디션을 체계적으로 사용하는 방법.|ex) 보편적이고 발생 가능성이 높은 장애 분류|
+|4|프로세스/표준 준수|외부 규정 또는 표준을 기반으로 테스트를 분석, 설계, 구현하는 방법.|-|
+|5|전문가 조언/자문|이해관계자(사용자, 최종 소비자), 비즈니스 도메인 전문가의 자문.<span style="color:#0000FF">(외/내부 전문가)</span>|-|
+|6|리그레션 기피|기존 기능에 대한 리그레션 테스트 기피를 목표로함.|ex)기존 테스트웨어 재사용, 리그레션 테스트 자동화 등|
+|7|반응적|테스트 실행 중 발생하는 이벤트에 따라 반응적으로 수행하는 평가 방법.|ex) 탐색적 테스팅|
+
+### 5.2.3 시작 조건과 종료 조건
+- 시작 조건 : 특정 테스트 활동이 시작 할 수 있는 조건.
+ex) 이전 테스트 종료 조건, 테스트 환경 가용 여부, 테스트 자원 가용 여부
+- 종료 조건 : 특정 테스트 레벨이나 테스트 세트가 끝났음을 만족하는 조건
+ex) 계획한 테스트 실행 완료, 정의한 커버리지 도달, 해결 못한 결함 수가 합의된 수 미만, 비기능적 특성이 원하는 품질 수준에 도달
+
+### 5.2.4 테스트 실행 일정
+- 우선순위가 높은 테스트 케이스를 먼저 실행 하는 등 평가 실행 일정을 계획
+
+### 5.2.5 테스트 노력에 영향을 미치는 요소
+
+| Item | Example |
+|:---|:---|
+|제품 특성|요구사항 특성, 제품 관련 리스크, 제품 도메인 복잡도|
+|개발 프로세스 특성|테스트 접근법, 사용하는 개발 모델, 조직의 성숙도, 테스트 프로세스|
+|인력 특성|팀 응집력, 열걍, 유사 프로젝트 경험|
+|테스트 결과|발견 결함 수|
+
+### 5.2.6 테스트 추정 기법
+테스트 노력을 추정하는 기법.
+- 메트릭 기반 기법 : 기존 유사 프로젝트에서 얻은 메트릭에 기반하거나 보편적 값을 바탕으로 테스트 노력 예측 <span style="color:#0000FF">(외부)</span>
+- 전문가 기반 기법 : 테스팅 작업의 책임자나 전문가의 경험을 기반으로 테스트 노력 예측 <span style="color:#0000FF">(내/외부)</span>
+
+## 5.3 테스트 모니터링과 제어
+- 테스트 모니터링을 통해 정기적으로 테스트 진행상황 보고서를 작성한다.
+| Item | Description |
+|:---|:---|
+|테스트 모니터링|- 테스트 모니터링을 통한 정보 수집을 통해 테스트 진행 상황 평가.<br>- 테스트 종료 조건 등을 평가|
+|테스트 제어|- 수집한 정보를 토대로 테스트 계획 및 평가 수정|
+
+### 5.3.1 테스팅에 사용하는 메트릭
+- 계획한 일정과 예산 대비 진행 상황
+- 테스트 대상의 현재 품질
+- 테스트 접근법을 타당성
+- 목적 대비 테스트 활동의 효과
+- 결함 정보, 커버리지
+
+### 5.3.2 테스트 보고의 목적, 내용, 독자
+- 테스트 진행상황 보고서 : 테스트 계획 대비 진행 상황, 진행 방해 요소, 다음 계획한 테스팅 등을 명시한다.
+- 테스트 요약 보고서 : 종료 조건 만족시 작성하는 보고서로 테스팅 수행 내용 요약, 계획 대비 편차 등을 명시한다.
+
+## 5.4 형상관리
+- 형상 관리의 목적은 프로젝트와 제품 수명주기 동안 컴포넌트나 시스템, 테스트웨어와 이들 서로간의 관계 통합을 수립하고 유지하는 데 있다.
+
+## 5.5 리스크와 테스팅
+
+### 5.5.1 리스크의 정의
+- 리스크 : 미래에 <span style="color:#FF0000">부정적 결과</span>를 가져오는 이벤트 발생 가능성이다. 리스크는 이벤트 발생 가능성과 이벤트로 인한 영향도로 결정한다.
+
+### 5.5.2 제품 및 프로젝트 리스크
+
+| Item | Description | Example |
+|:---|:---|:---|
+|제품 리스크|- 제품 자체의 리스크|ex) 제품이 명시된 요구사항과 다른게 기능함, 일부 비기능 요구사항을 지원 못함, 특정 계산식의 결함 |
+|프로젝트 리스크|- 프로젝트 목적 달성에 부정적인 영향을 주는 것|ex) 인력 부족, 평가 환경/도구 가용성, 미흡한 요구사항, 외주 업체 문제|
+
+### 5.5.3 리스크 기반 테스팅과 제품 품질
+- 리스크 기반 접근법은 제품 리스크 수준을 조기에 낮추는데 기여한다.
+- 제품 리스크 식별 및 리스크 발생 가능성과 영향을 평가하는 제품 리스크 분석을 포함한다.
+
+## 5.6 결함 관리
+- 테스팅 목적 중 하나가 결함 발견이기 때문에 발견된 결함은 반드시 기록해야 한다.
+- 관리 도구를 사용하는 것이 좋다.
+<br>
+<br>
+<br>
 
 # 6. 지원 도구
+## 6.1 테스트 도구 고려 사항
+### 6.1.1 테스트 도구 의 분류
 
+| 도구 | Description | Example |
+|:---|:---|:---|
+|테스팅 및 테스트웨어 관리 지원 도구| 개발 수명 주기 전체에 걸쳐 사용 | 요구사항 관리 도구, 형상 관리 도구 |
+|정적 테스팅 지원 도구| 정적 분석에 사용 | 정적 분석 지원 도구(for 개발자) |
+|테스트 설계 및 구현 지원 도구| 테스트 설계와 구현을 지원 | Model based 평가 도구, 테스트 데이터 준비 도구 |
+|테스트 실행 미 로깅 지원 도구| 평가 수행을 돕는 도구| 커버리지 도구, 테스트 하네스(개발자 평가 환경), 테스트 수행 도구 |
+|성능 측정 및 동적 분석 지원 도구| 성능 및 부하 테스트 활동 지원 도구 | 동적 분석 동구, 성능 평가 도구(tiobench, androbench) |
 
+### 6.1.2 테스트 자동화의 효과와 리스크
+- 자동화 효과 : 반복 작업 감소, 평가 결과 정보 접근 용이
+- 자동화 리스크 : 도구에 대한 비현실적 기대, 도구 도입에 드는 비용, 유지 보수
 
+### 6.1.3 테스트 실행 및 테스트 관리 도구 고려 사항
+- 테스트 실행 도구
+1. 캡처 기반 테스트 접근법 : 테스터의 수동적인 조작 녹화해 테스트 수행하는 방법. 비효율성 높다.
+2. 데이터 주도 테스트 접근법 : 공통 스크립트에 다양한 데이터를 읽어 들여 평가.
+3. 키워드 주도 테스트 접근법 : 키워드 스크립트 호출을 통해 평가.
+
+## 6.2 도구의 효과적인 사용
+### 6.2.1 도구 선택의 주요 원칙
+- 조직의 수준 및 성숙도 평가
+- 도구를 미리 사용해보는 평가기간 필요 (사전 검증)
+- 도구를 사용할 사람의 수요 확인
+
+### 6.2.2 도구 도입을 위한 파일럿 프로젝트
+- 도구의 습득 및 장/단점 이해
+- 기존 프로세스에 도구 어떻게 적용하여 평가할지 결정
+- 목표 달성에 도움이 될지 평가
+
+### 6.2.3 도구 성공 요인
+- 조직의 다른 부서에 도구 사용 전파를 점진적으로 수행
+- 도구의 사용법에 맞게 프로세스를 수정하고 개선<span style="color:#FF0000">(도구를 프로세스에 맞춰 수정하면 안됨)</span>
+- 도구 사용자들에게 피드백 수용
