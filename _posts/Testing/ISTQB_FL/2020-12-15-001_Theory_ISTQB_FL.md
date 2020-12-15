@@ -1,5 +1,5 @@
 ---
-title:  "001.Theory of ISTQB foundation level"
+title:  "[001] Theory of ISTQB foundation level"
 excerpt: "Theory of ISTQB foundation level based on syllabus(v3.1)"
 toc: true
 #toc_label:
@@ -20,7 +20,7 @@ tags:
   - ISTQB
   - Foundation level
   - FL
-last_modified_at: 2020-12-6T08:06:00-05:00
+last_modified_at: 2020-12-15T18:06:00-05:00
 ---
 
 *※ "ISTQB의 syllabus v3.1을 기준으로 작성되었습니다."*  
