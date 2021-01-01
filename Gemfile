@@ -8,4 +8,4 @@ gemspec
 
 # [20.06.30] Add Admin Configuration
 gem 'jekyll-admin', group: :jekyll_plugins
-gem 'jekyll-sitemap'
+#gem 'jekyll-sitemap'
