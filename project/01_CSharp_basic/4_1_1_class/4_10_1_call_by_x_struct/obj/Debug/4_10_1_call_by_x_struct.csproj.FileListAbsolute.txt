@@ -1,0 +1,7 @@
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\4_10_1_call_by_x_struct\bin\Debug\4_10_1_call_by_x_struct.exe.config
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\4_10_1_call_by_x_struct\bin\Debug\4_10_1_call_by_x_struct.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\4_10_1_call_by_x_struct\bin\Debug\4_10_1_call_by_x_struct.pdb
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\4_10_1_call_by_x_struct\obj\Debug\4_10_1_call_by_x_struct.csprojAssemblyReference.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\4_10_1_call_by_x_struct\obj\Debug\4_10_1_call_by_x_struct.csproj.CoreCompileInputs.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\4_10_1_call_by_x_struct\obj\Debug\4_10_1_call_by_x_struct.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\4_10_1_call_by_x_struct\obj\Debug\4_10_1_call_by_x_struct.pdb

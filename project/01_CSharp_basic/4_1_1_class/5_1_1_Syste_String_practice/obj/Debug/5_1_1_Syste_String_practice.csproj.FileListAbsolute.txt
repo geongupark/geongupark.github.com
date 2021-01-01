@@ -1,0 +1,7 @@
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_1_1_Syste_String_practice\bin\Debug\5_1_1_Syste_String_practice.exe.config
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_1_1_Syste_String_practice\bin\Debug\5_1_1_Syste_String_practice.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_1_1_Syste_String_practice\bin\Debug\5_1_1_Syste_String_practice.pdb
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_1_1_Syste_String_practice\obj\Debug\5_1_1_Syste_String_practice.csprojAssemblyReference.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_1_1_Syste_String_practice\obj\Debug\5_1_1_Syste_String_practice.csproj.CoreCompileInputs.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_1_1_Syste_String_practice\obj\Debug\5_1_1_Syste_String_practice.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_1_1_Syste_String_practice\obj\Debug\5_1_1_Syste_String_practice.pdb

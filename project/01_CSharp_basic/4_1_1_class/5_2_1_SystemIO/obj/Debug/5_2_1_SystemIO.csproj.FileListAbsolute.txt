@@ -1,0 +1,7 @@
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_2_1_SystemIO\bin\Debug\5_2_1_SystemIO.exe.config
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_2_1_SystemIO\bin\Debug\5_2_1_SystemIO.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_2_1_SystemIO\bin\Debug\5_2_1_SystemIO.pdb
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_2_1_SystemIO\obj\Debug\5_2_1_SystemIO.csprojAssemblyReference.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_2_1_SystemIO\obj\Debug\5_2_1_SystemIO.csproj.CoreCompileInputs.cache
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_2_1_SystemIO\obj\Debug\5_2_1_SystemIO.exe
+D:\00_Study\09_git\02_blog\geongupark.github.com\project\01_CSharp_basic\4_1_1_class\5_2_1_SystemIO\obj\Debug\5_2_1_SystemIO.pdb

@@ -1,7 +1,7 @@
 // Student.cs
 namespace _4_7_IEnumerable
 {
-  class Student
+  public class Student
   {
     public string Name { get; set; }
     public int Age { get; set; }
