@@ -10,6 +10,8 @@ tags:
   - ISTQB
   - Foundation level
   - FL
+  - 후기
+  - 시험
 last_modified_at: 2020-12-15T08:06:00-05:00
 ---
 

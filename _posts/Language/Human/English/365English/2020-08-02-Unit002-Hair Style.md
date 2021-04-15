@@ -26,7 +26,7 @@ last_modified_at: 2020-08-02T08:06:00-05:00
 - hair style에 관한 표현을 알아봐요.
   
 ----
-<br
+<br>
 
 <!-- mp3 -->
 <audio id="a1" src="/assets/mp3/365english/Week1_02_01.mp3" preload hidden="false"></audio>
