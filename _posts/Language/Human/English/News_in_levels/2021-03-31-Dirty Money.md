@@ -30,6 +30,8 @@ last_modified_at: 2021-03-31T08:06:00-05:00
 <br>
 
 # <span style="color:#FF8000">Writing/Speaking : Level2</span>
+<iframe width= "300" height="200" src="https://www.youtube.com/embed/NnIwWIBjd5E" frameborder="0" arrowfullscreen></iframe>  
+<br>
 Andreas Flaten은 미국 조지아의 자동차 정비소에서 일했었다.  
 그는 2020년 11월에 회사를 떠났다, 그러나 그의 사장은 그에게 마지막 임금을 지불하지 않았다.  
 Flaten의 사장은 그에게 915 달러의 채무가 있었고 Flaten은 당국에 그가 무엇을 할지 모르겠다고 도움을 요청했다.  
@@ -58,6 +60,8 @@ It takes him 90 minutes to clean several hundred coins.
 </details>
 <br>
 # <span style="color:#FF8000">Reading/Listening : Level3</span>
+<iframe width= "300" height="200" src="https://www.youtube.com/embed/uapsKY0KDsY" frameborder="0" arrowfullscreen></iframe>  
+<br>
 Andreas Flaten left his job at A OK Walker Autoworks in Georgia, US, in November 2020; however, he had difficulty getting his final paycheck.  
 Flaten asked his former employer to pay 915 dollars that he was owed in wages, and he even turned to the Georgia Department of Labor for help.  
 In mid-March 2021, Flaten was leaving his house with his girlfriend and he noticed a pile of pennies that were left at the end of his driveway.  
