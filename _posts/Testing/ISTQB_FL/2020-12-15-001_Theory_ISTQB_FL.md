@@ -1,6 +1,6 @@
 ---
 title:  "[001] ISTQB foundation level 실라버스(v3.1) 이론"
-excerpt: "실라버스(v3.1)를 기반으로한 ISTQB foundation level 이론이에요. ISTQB CTFL에 도전하실 분들 참고하세요~!"
+excerpt: "실라버스(v3.1)를 기반으로한 ISTQB foundation level 이론(요약, 정리)이에요. ISTQB CTFL에 도전하실 분들 참고하세요~!"
 toc: true
 #toc_label:
 toc_sticky: true

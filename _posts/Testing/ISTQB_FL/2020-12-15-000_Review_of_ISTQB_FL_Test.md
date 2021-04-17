@@ -1,6 +1,6 @@
 ---
 title:  "[000] Review of ISTQB foundation level Test"
-excerpt: "Review of ISTQB CTFL Test"
+excerpt: "ISTQB CTFL 시험 후기(요약, 정리) 입니다."
 toc: true
 toc_sticky: true
 #teaser: 
