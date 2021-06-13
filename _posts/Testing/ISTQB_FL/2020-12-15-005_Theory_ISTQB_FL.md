@@ -1,6 +1,6 @@
 ---
 title:  "[005] ISTQB foundation level 실라버스(v3.1) 이론 - 테스트 관리"
-excerpt: "실라버스(v3.1)를 기반으로한 ISTQB foundation level 이론(요약, 정리)이에요. ISTQB CTFL에 도전하실 분들 참고하세요~!"
+excerpt: "실라버스(v3.1)를 기반으로한 ISTQB foundation level 이론(요약, 정리)이에요. 테스트 관리에 대해 알아봐요. ISTQB CTFL에 도전하실 분들 참고하세요~!"
 toc: true
 #toc_label:
 toc_sticky: true
@@ -28,6 +28,7 @@ tags:
   - STEN
   - 요약
   - 정리
+  - 테스트 관리
 last_modified_at: 2020-12-15T18:06:00-05:00
 ---
 

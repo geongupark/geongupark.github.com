@@ -1,6 +1,6 @@
 ---
-title:  "[006] ISTQB foundation level 실라버스(v3.1) 이론 - 소프트웨어 개발 수명 주기와 테스팅"
-excerpt: "실라버스(v3.1)를 기반으로한 ISTQB foundation level 이론(요약, 정리)이에요. ISTQB CTFL에 도전하실 분들 참고하세요~!"
+title:  "[006] ISTQB foundation level 실라버스(v3.1) 이론 - 지원 도구"
+excerpt: "실라버스(v3.1)를 기반으로한 ISTQB foundation level 이론(요약, 정리)이에요. 지원 도구에 대해 알아봐요. ISTQB CTFL에 도전하실 분들 참고하세요~!"
 toc: true
 #toc_label:
 toc_sticky: true
@@ -28,6 +28,7 @@ tags:
   - STEN
   - 요약
   - 정리
+  - 지원 도구
 last_modified_at: 2020-12-15T18:06:00-05:00
 ---
 
