@@ -1,6 +1,6 @@
 ---
-title:  " Python 가상환경(venv) 설정 in vscode"
-excerpt: "프로젝트마다 다른 패키지 버전을 사용하고 싶다면? 가상환경 설정을 해요!"
+title:  "[Python_OOP_01] Python 가상환경(venv) 설정 in vscode"
+excerpt: "프로젝트마다 다른 패키지 버전을 사용하고 싶다면? venv 가상환경 설정을 해요!"
 toc: true
 #toc_label:
 toc_sticky: true
