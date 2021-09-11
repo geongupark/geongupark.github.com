@@ -28,11 +28,11 @@ last_modified_at: 2021-07-29T18:06:00-05:00
 - 개발자들이 극찬하는 Microsoft의 IDE인 vscode를 Download 받기 ([공식 홈페이지](https://code.visualstudio.com/))
 - Python 필요한 버전으로 다운 받기 ([공식 홈페이지](https://www.python.org/))
 
-# 1.1 Tip of vscode
+## 1.1 Tip of vscode
 - ctrl + j : 터미널 열기
 - ctrl + b : 탐색기 숨김/열기
 - Python extension for Visual Studio Code 다운받기 (ctrl+shift+x 누른 후 python 검색)
-
+  
 # 2. 가상환경
 - 개발 project 별로 패키지 버전을 다르게 쓰고 싶은 경우 가상 환경 사용
 - Python 3.3 이후 부터 기본 제공하는 venv 환경을 사용 할 수 있음
