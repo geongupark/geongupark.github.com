@@ -42,7 +42,8 @@ last_modified_at: 2021-07-29T18:06:00-05:00
 
 ### 2.1.1 venv 환경 만들기
 - 가상 환경 만들 위치에서 하기 명령 수행
-- 주로 가상환경 명으로 venv을 사용
+- 주로 가상환경 명으로 venv을 사용  
+
 ```
 > python -m venv .\(가상환경명)
 (Ex) python -m venv .\venv
@@ -51,12 +52,14 @@ last_modified_at: 2021-07-29T18:06:00-05:00
 ### 2.1.2 venv 환경 활성&비활성
 - venv 환경 활성을 위해 터미널에서 하기 명령 수행
 - Window이며 powershell terminal이라면 하기 명령 수행
-- [venv 공식 문서](https://docs.python.org/ko/3/library/venv.html)
+- [venv 공식 문서](https://docs.python.org/ko/3/library/venv.html)  
+
 ```
 <venv>\Scripts\Activate.ps1
 (Ex) .\venv\Scripts\Activate.ps1
 ```
-※ <span style="color:#FF0000">[참고!]</span> vscode 터미널이 powershell 이면 오류가 발생하니 관리자 권한으로 power shell 실행 후 하기 명령 수행 필요
+※ <span style="color:#FF0000">[참고!]</span> vscode 터미널이 powershell 이면 오류가 발생하니 관리자 권한으로 power shell 실행 후 하기 명령 수행 필요  
+
 ```
 Set-ExecutionPolicy Unrestricted
 ```
