@@ -31,7 +31,7 @@ last_modified_at: 2021-07-29T18:06:00-05:00
 ## 1.1 Tip of vscode
 - ctrl + j : 터미널 열기
 - ctrl + b : 탐색기 숨김/열기
-- Python extension for Visual Studio Code 다운받기 (ctrl+shift+x 누른 후 python 검색)
+- Python extension for Visual Studio Code 다운받기 (ctrl+shift+x 누른 후 python 검색)  
   
 # 2. 가상환경
 - 개발 project 별로 패키지 버전을 다르게 쓰고 싶은 경우 가상 환경 사용
@@ -50,14 +50,16 @@ last_modified_at: 2021-07-29T18:06:00-05:00
 ```
 
 ### 2.1.2 venv 환경 활성&비활성
-- venv 환경 활성을 위해 터미널에서 하기 명령 수행
-- Window이며 powershell terminal이라면 하기 명령 수행
+- venv 환경 활성/비활성을 위해 터미널에서 하기 명령 수행
+- 활성 : Window이며 powershell terminal이라면 하기 명령 수행
+- 비활성 : deactivate 입력
 - [venv 공식 문서](https://docs.python.org/ko/3/library/venv.html)  
 
 ```
 <venv>\Scripts\Activate.ps1
 (Ex) .\venv\Scripts\Activate.ps1
 ```
+
 ※ <span style="color:#FF0000">[참고!]</span> vscode 터미널이 powershell 이면 오류가 발생하니 관리자 권한으로 power shell 실행 후 하기 명령 수행 필요  
 
 ```
