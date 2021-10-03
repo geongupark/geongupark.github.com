@@ -51,8 +51,8 @@ last_modified_at: 2021-07-29T18:06:00-05:00
 
 ### 2.1.2 venv 환경 활성&비활성
 - venv 환경 활성/비활성을 위해 터미널에서 하기 명령 수행
-- 활성 : Window이며 powershell terminal이라면 하기 명령 수행
-- 비활성 : deactivate 입력
+- 활성 : Window이며 powershell terminal이라면 하기 명령 수행 (Linux면 "source /venv/bin/activate" 수행)
+- 비활성 : deactivate 입력하기
 - [venv 공식 문서](https://docs.python.org/ko/3/library/venv.html)  
 
 ```
