@@ -1,6 +1,6 @@
 ---
-title:  "[Python_OOP_01] Python 가상환경(venv) 설정 in vscode"
-excerpt: "프로젝트마다 다른 패키지 버전을 사용하고 싶다면? venv 가상환경 설정을 해요!"
+title:  "[Python_Basic_01] Python 가상환경(venv) 설정 in vscode"
+excerpt: "프로젝트마다 다른 파이썬 패키지 버전을 사용하고 싶다면? venv 가상환경 설정을 해요!"
 toc: true
 #toc_label:
 toc_sticky: true
@@ -15,7 +15,7 @@ toc_sticky: true
 # 보라색 : <span style="color:#9A2EFE"></span>
 
 categories:
-  - Python_OOP
+  - python_basic
 tags:
   - vscode
   - Python
@@ -29,7 +29,7 @@ last_modified_at: 2021-07-29T18:06:00-05:00
 - Python 필요한 버전으로 다운 받기 ([공식 홈페이지](https://www.python.org/))
 
 ## 1.1 Tip of vscode
-- ctrl + j : 터미널 열기
+- **ctrl + j : 터미널 열기**
 - ctrl + b : 탐색기 숨김/열기
 - Python extension for Visual Studio Code 다운받기 (ctrl+shift+x 누른 후 python 검색)  
   
@@ -51,7 +51,9 @@ last_modified_at: 2021-07-29T18:06:00-05:00
 
 ### 2.1.2 venv 환경 활성&비활성
 - venv 환경 활성/비활성을 위해 터미널에서 하기 명령 수행
-- 활성 : Window이며 powershell terminal이라면 하기 명령 수행 (Linux면 "source /venv/bin/activate" 수행)
+
+#### Window 환경
+- 활성 : Window이며 powershell terminal이라면 하기 명령 수행
 - 비활성 : deactivate 입력하기
 - [venv 공식 문서](https://docs.python.org/ko/3/library/venv.html)  
 
@@ -59,12 +61,24 @@ last_modified_at: 2021-07-29T18:06:00-05:00
 <venv>\Scripts\Activate.ps1
 (Ex) .\venv\Scripts\Activate.ps1
 ```
-
 ※ <span style="color:#FF0000">[참고!]</span> vscode 터미널이 powershell 이면 오류가 발생하니 관리자 권한으로 power shell 실행 후 하기 명령 수행 필요  
 
 ```
 Set-ExecutionPolicy Unrestricted
 ```
+
+#### Linux 환경
+- 활성 : Linux면 "source /venv/bin/activate" 수행
+- 비활성 : deactivate 입력
+
+# 3. Python Interpreter 설정
+- 가상환경 내 python으로 Interpreter를 설정 해줘야 함
+- vscode에서 **"ctrl + shift + p"** 입력
+![Ctrl+shift+p](/assets/images/211230_python_basic/ctrl_shift_p.png "Ctrl+shift+p")
+- venv 내 python 경로를 입력해줌  
+  ex) **linux의 경우 $\rightarrow$ ./venv/bin/python3**
+- 하기와 같이 vscode 내 하단에 적용 됨  
+![Ctrl+shift+p](/assets/images/211230_python_basic/interpreter.png "Ctrl+shift+p")
 
 # 참고문헌
 - venv 공식 문서 : https://docs.python.org/ko/3/library/venv.html
