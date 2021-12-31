@@ -72,7 +72,7 @@ Set-ExecutionPolicy Unrestricted
 - 비활성 : deactivate 입력
 
 # 3. Python Interpreter 설정
-- 가상환경 내 python으로 Interpreter를 설정 해줘야 함
+- 가상환경(venv) 내 python으로 Interpreter를 설정 해줘야 함
 - vscode에서 **"ctrl + shift + p"** 입력  
 ![Ctrl+shift+p](/assets/images/211230_python_basic/ctrl_shift_p.png "Ctrl+shift+p")
 - venv 내 python 경로를 입력해줌  
