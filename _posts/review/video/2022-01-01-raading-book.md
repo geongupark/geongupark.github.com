@@ -29,7 +29,7 @@ last_modified_at: 2022-01-01T18:06:00-05:00
 **나만의 별점 :** 🟢🟢🟢🟢🟢
 - 최승필 독서 교육 전문가(공부머리 독서법 저자)의 세바시 강연 영상임
 - 많은 사람들이 독서에 대해 오해하는 부분에 대한 이야기를 들려 줌
-<iframe width= "50" height="30" src="https://www.youtube.com/embed/3E2NH_C_os0" frameborder="0" arrowfullscreen></iframe>
+- [Youtube link](https://www.youtube.com/watch?v=3E2NH_C_os0)
   
 # 2. 간결 리뷰
 위 동영상은 많은 사람들이 독서에 대해 오해하는 부분에 대한 이야기를 하는 세바시 강연이다. 크게 3가지 관점에서 이야기를 하고 있다.
