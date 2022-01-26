@@ -52,8 +52,8 @@ last_modified_at: 2022-01-25T18:06:00-05:00
 > 모의 투자 서버로만 접속 가능
 > 서비스 TR의 입력/출력 값 확인 가능
 > 실시간 DATA의 ID 값 확인 가능
-![KOA Studio 구성](/assets\images\220125_kiwoom_open_api.png "KOA Studio 구성"){: width="300" height="500"}
-
+![KOA Studio 구성](/assets/images/220125_kiwoom_open_api/KOA_Studio.png "KOA Studio 구성"){: width="500" height="300"}
+<img src="/assets/images/220125_kiwoom_open_api/KOA_Studio.png" width="500" height="300">
 # 3. OpenAPI+ 활용
 * Open API OCX 탑재 프로그램을 제작하여 활용 해 볼 수 있음
 * 개발 시 개발 가이드, KOA Studio를 참고하여 진행
