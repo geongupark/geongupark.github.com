@@ -29,13 +29,13 @@ last_modified_at: 2022-01-26T18:06:00-05:00
   
 # 1. C# Winform project 생성 및 OCX 컨트롤 추가
 * Visual studio에서 C# winform project를 생성
-* 도구상자>마우스우클릭>항목 선택
+* 도구상자>마우스우클릭>항목 선택  
 <img src="/assets/images/220126_kiwoom_login/Add_API1.png" width="600" height="300">
 
-* COM 구성 요소 내 KHOpenAPI Control 체크 후 확인
+* COM 구성 요소 내 KHOpenAPI Control 체크 후 확인  
 <img src="/assets/images/220126_kiwoom_login/Add_API2.png" width="600" height="300">
 
-* 도구 상자 내에 KHOpenAPI 도구 생성 된 것 확인 가능
+* 도구 상자 내에 KHOpenAPI 도구 생성 된 것 확인 가능  
 <img src="/assets/images/220126_kiwoom_login/tool_box.png" width="400" height="200">
 
 # 2. WinForm 구성
@@ -45,7 +45,7 @@ last_modified_at: 2022-01-26T18:06:00-05:00
 ### 2.1.1 Button(로그인, 로그아웃)
 * KOA Studio 내 개발 가이드를 살펴보면 login 관련 함수 설명을 볼 수 있음
 * 로그인은 CommConnect() 함수를 이용, 로그 아웃은 CommTerminate() 함수가 제거 됐기 때문에 구현 불가
-* GetConnectState() 함수를 통해 연결 상태 확인 가능
+* GetConnectState() 함수를 통해 연결 상태 확인 가능  
 <img src="/assets/images/220126_kiwoom_login/login_method.png" width="400" height="200">
 
 ### 2.1.2 ListBox(로그)
@@ -94,7 +94,6 @@ private void OnEventConnect(object sender, AxKHOpenAPILib._DKHOpenAPIEvents_OnEv
 }
 ```
 # 3. 결과 화면
-* Application 수행 결과는 아래와 같음
-
+* Application 수행 결과는 아래와 같음  
 <img src="/assets/images/220126_kiwoom_login/result1.png">
 <img src="/assets/images/220126_kiwoom_login/result2.png">
