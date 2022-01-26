@@ -93,6 +93,7 @@ private void OnEventConnect(object sender, AxKHOpenAPILib._DKHOpenAPIEvents_OnEv
     }
 }
 ```
+
 # 3. 결과 화면
 * Application 수행 결과는 아래와 같음  
 <img src="/assets/images/220126_kiwoom_login/result1.png" width="500" height="250">
