@@ -15,7 +15,7 @@ toc_sticky: true
 # 보라색 : <span style="color:#9A2EFE"></span>
 
 categories:
-  - C#_open_api
+  - C#_kiwoom_open_api
 tags:
   - C#
   - open api
@@ -96,4 +96,4 @@ private void OnEventConnect(object sender, AxKHOpenAPILib._DKHOpenAPIEvents_OnEv
 # 3. 결과 화면
 * Application 수행 결과는 아래와 같음  
 <img src="/assets/images/220126_kiwoom_login/result1.png" width="500" height="250">
-<img src="/assets/images/220126_kiwoom_login/result2.png" width="250" height="250">
+<img src="/assets/images/220126_kiwoom_login/result2.png" width="500" height="500">

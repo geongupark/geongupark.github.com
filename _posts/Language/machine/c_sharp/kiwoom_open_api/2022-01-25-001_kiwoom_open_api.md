@@ -15,7 +15,7 @@ toc_sticky: true
 # 보라색 : <span style="color:#9A2EFE"></span>
 
 categories:
-  - C#_open_api
+  - C#_kiwoom_open_api
 tags:
   - C#
   - open api
