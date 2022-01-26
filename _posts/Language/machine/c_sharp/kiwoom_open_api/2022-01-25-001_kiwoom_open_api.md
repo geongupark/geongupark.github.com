@@ -24,11 +24,11 @@ tags:
   - 주식
 last_modified_at: 2022-01-25T18:06:00-05:00
 ---
-
-
+***키움 증권 OpenAPI+를 활용하기 위한 사전 작업에 대해 알아보자***
+  
 # 1. Kiwoom Open Api
 * 키움 증권에서 제공하는 주식 관련 정보를 얻어 올 수 있는 공개된 API
-* C#을 통해 사용 할 수 있음
+* C#을 통해 활용 할 수 있음
 
 # 2. 준비 작업
 * 키움 증권 Open API 사용을 위한 준비 작업
@@ -56,5 +56,5 @@ last_modified_at: 2022-01-25T18:06:00-05:00
 <img src="/assets/images/220125_kiwoom_open_api/KOA_Studio.png" width="800" height="400">
 
 # 3. OpenAPI+ 활용
-* Open API OCX 탑재 프로그램을 제작하여 활용 해 볼 수 있음
+* C# 언어를 활용하여 Open API OCX 탑재 프로그램을 제작 가능
 * 개발 시 개발 가이드, KOA Studio를 참고하여 진행
