@@ -31,8 +31,10 @@ last_modified_at: 2022-01-26T18:06:00-05:00
 * Visual studio에서 C# winform project를 생성
 * 도구상자>마우스우클릭>항목 선택
 <img src="/assets/images/220126_kiwoom_login/Add_API1.png" width="600" height="300">
+
 * COM 구성 요소 내 KHOpenAPI Control 체크 후 확인
 <img src="/assets/images/220126_kiwoom_login/Add_API2.png" width="600" height="300">
+
 * 도구 상자 내에 KHOpenAPI 도구 생성 된 것 확인 가능
 <img src="/assets/images/220126_kiwoom_login/tool_box.png" width="400" height="200">
 
@@ -92,6 +94,7 @@ private void OnEventConnect(object sender, AxKHOpenAPILib._DKHOpenAPIEvents_OnEv
 }
 ```
 # 3. 결과 화면
-* Application 수행 결과는 아래와 같음  
-<img src="/assets/images/220126_kiwoom_login/result1.png" width="200" height="400">
-<img src="/assets/images/220126_kiwoom_login/result2.png" width="200" height="400">
+* Application 수행 결과는 아래와 같음
+
+<img src="/assets/images/220126_kiwoom_login/result1.png">
+<img src="/assets/images/220126_kiwoom_login/result2.png">
