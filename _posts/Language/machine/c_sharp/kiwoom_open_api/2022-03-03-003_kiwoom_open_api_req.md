@@ -38,6 +38,7 @@ last_modified_at: 2022-03-03T18:06:00-05:00
 
 # 2. 조회 요청/수신 사용법
 > [1] SetInputValue(사용자 호출) -> [2] CommRqData(사용자 호출) -> [3] OnReceiveTrData(이벤트 발생)
+  
 1. 조회 요청하고자 하는 TR의 입력값(input) 셋팅
 2. 서버에 TR 조회 요청
 3. 서버는 TR 요청에 대한 결과를 이벤트를 통해 전달
