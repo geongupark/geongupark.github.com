@@ -75,7 +75,7 @@ private void ButtonLogin_Click(object sender, EventArgs e)
 }
 ```
 
-### 2.2.2 OnEventConnect(로그)
+### 2.2.2 OnEventConnect(로그인 상태 확인)
 * axKHOpenAPI 내 GetConnectState() 메서드의 출력 값에 따라 연결 상태 ListBox에 출력
 ```
 private void OnEventConnect(object sender, AxKHOpenAPILib._DKHOpenAPIEvents_OnEventConnectEvent e)
