@@ -37,20 +37,20 @@ last_modified_at: 2022-03-03T20:06:00-05:00
 # 2. 실시간 데이터 조회 요청/수신 사용법
 > 방법1. 조회 서비스 이용
 > SetInputValue(사용자 호출) -> CommRqData(사용자 호출) -> OnReceiveTrData(이벤트 발생) ->OnReceiveRealData(이벤트 발생)
+
 > 방법2. SetRealReg 함수 이용
 > SetRealReg(사용자 호출) -> OnReceiveRealData(이벤트 발생)
   
 * 실시간 시세만 필요한 경우 방법2를 이용
 
 # 3. WinForm 구성
-* 실시간 데이터 조회 요청/수신 실습을 위해 삼성전자(005930)의 실시간 현재가 데이터를 받아옴
-* 
+* 실시간 데이터 조회 요청/수신 실습을 위해 삼성전자우(005935)의 실시간 현재가 데이터를 받아옴
 
 ## 3.1 Event
 ### 3.1.1 OnReceiveRealData 이벤트 callback 함수 등록
 * 앞서 진행한 003번 포스팅의 코드에 하기 코드만 붙여주면 됨
 * OnReceiveRealData 이벤트 callback 함수 정의 및 등록을 해줌
-* OnReceiveRealData 이벤트는 실시간 이벤트라서 요청한 종목에 대한 실시간 데이터를 <span style="color:#FF0000">**지속적으로 제공**</span>함
+* <span style="color:#FF0000">OnReceiveRealData 이벤트</span>는 실시간 이벤트라서 요청한 종목에 대한 실시간 데이터를 <span style="color:#FF0000">**지속적으로 제공**</span>함
 * 중간에 멈추던지(DisconnectRealData) 다른 종목을 요청(CommRqData) 할 수 있음
 
 ```
