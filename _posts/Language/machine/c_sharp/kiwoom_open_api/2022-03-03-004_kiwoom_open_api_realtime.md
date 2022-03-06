@@ -35,10 +35,10 @@ last_modified_at: 2022-03-03T20:06:00-05:00
 * 시세조회가 필요없고 실시간 시세만 필요한 경우 SetRealReg 함수를 사용하여 특정종목(복수종목 가능)의 실시간시세를 서버에 등록할 수 있음
 
 # 2. 실시간 데이터 조회 요청/수신 사용법
-> 방법1. 조회 서비스 이용
+* 방법1. 조회 서비스 이용
 > SetInputValue(사용자 호출) -> CommRqData(사용자 호출) -> OnReceiveTrData(이벤트 발생) ->OnReceiveRealData(이벤트 발생)
 
-> 방법2. SetRealReg 함수 이용
+* 방법2. SetRealReg 함수 이용
 > SetRealReg(사용자 호출) -> OnReceiveRealData(이벤트 발생)
   
 * 실시간 시세만 필요한 경우 방법2를 이용
